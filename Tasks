@@ -1,2 +1,6 @@
-1. Map
-2. Server Infrastructure
+Server Infrastructure ASAP. What kind of server, how is it being hosted, are connections possible, does it hold up to stress,
+Photon??, Possibility of continuous uptime, via Photon. Learn PUN API.
+
+Test map, no graphics/environment required.
+
+Basic Movement.
