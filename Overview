@@ -1,3 +1,17 @@
 Outline:
 
 A sandbox server based survival game, in a style that pays homage to Minecraft and Rust.
+
+
+Feature Ideas:
+
+1. Expansive Tech Tree, passing through Ages, i.e. Stone Age tools to current timed gear and equipment.
+2. Easy building system, with various materials, to allow for walls/housing/misc. buildings.
+3. Crafting system based around proficiency, blueprints are hidden until a competent level is reached.
+4. Persistent servers with player interaction set on open, fixed map.
+5. Environment styles and clearly defined sectors of map, as placeholders.
+6. Automated Mining and Crafting, as an end-game option.
+7. Possibility of player built cities and structures.
+8. Permadeath?
+9. NPC creation and ownership.
+10. Hacking/Mind Control of said NPC's.
