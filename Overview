@@ -6,13 +6,41 @@ A sandbox server based survival game, in a style that pays homage to Minecraft a
 Feature Ideas:
 
 1. Expansive Tech Tree, passing through Ages, i.e. Stone Age tools to current timed gear and equipment.
+>Stone Age: Combat/Food/Knowledge/Social
+            Combat: Fists I/II/III (I is given at beginning)
+                    Rocks I/II/III (Requires Tools I from Knowledge)
+                    Sling I/II/III (Requires Tools II from Knowledge)
+                    Wooden Spears I/II/III (Requires Tools III from Knowledge)
+                    Stone Spears I/II/III (Requires Wooden Spears II/
+            
+            Food:   Water (Let's pretend prehistoric water's the tiniest bit nutritious from all the evolving critters?)
+                    Berries (Requires Nutrition I)
+                    Meat (Requires Nutrition II)
+                    Cooked Meat (Requires Nutrition III)
+            
+            Knowledge: Tools I/II/III/IV
+                       Nutrition I/II/III/IV
+                       Hunter I/II/III/IV - Run Better/Sneak/Camouflage in Dirt, Hidden from NPCs when not moving/
+                                            Hidden from Wild Animals
 2. Easy building system, with various materials, to allow for walls/housing/misc. buildings.
+>Perhaps the standard craft table/place completed item? Farsky's base building wasn't too bad, I suspect it's similar
+in Rust.
 3. Crafting system based around proficiency, blueprints are hidden until a competent level is reached.
 4. Persistent servers with player interaction set on open, fixed map.
 5. Environment styles and clearly defined sectors of map, as placeholders.
+>Only first person view to make it clear you're a person not just an overlord with a body?
 6. Automated Mining and Crafting, as an end-game option.
 7. Possibility of player built cities and structures.
 8. Permadeath?
 9. NPC creation and ownership.
+>Houses: Idea of families so that NPC's sleep/frequent the same home, homes could house x people and boost efficiency of
+NPCs, who would routinely use them having been assigned to them>> Players would have to strike at certain times depending on
+which NPC they controlled.
+>Simple control, walk up and 'talk' to NPC or select through crowd--> Naming identification: On Chat- (NPCname): [COMMAND]
+>NPC Stats based on same as player stats, but more likely to specialise in tasks--> Less combative experience unless warring
+nation--> Means flood of NPC's can't be weaponised (Perhaps NPC 'groups' for combat system, randomly put together unless
+you select otherwise, and then randomly clashed against other player's NPC groups or structures or whatever is selected)
 10. Hacking/Mind Control of said NPC's.
+>Exists in all eras, ranging from fire mysticism to voodoo dolls to brain-washing.
+>Loyalty/Respect contributes to likelihood of negated attempt, successive failed attempts get harder till no chance.
 11. Character personalization/customization.
