@@ -73,7 +73,7 @@ C/r = Always spawn with 1 spear, 1 Scale Helmet, 1 Scale Shirt, 1 slingshot, 20 
 C/b = Always spawn with hatchet which deals 2 damage per second and deals double standard hatchet damage on barriers
 C/s = Able to deal double damage as long as in rear 90 degrees of enemy
 C/ca = Always spawn with hammer which deals 3 damage per second and heals 2 damage per second to self
-B/r = Always spawn with hatchet which deal 2 damage per second, allows crafting without CT
+B/r = Always spawn with hatchet which deal 1 damage per second, allows crafting without CT and halves harvesting time
 B/c = Always spawn with hammer which deals 2 damage per second, heals barriers with two hits
 B/s = Able to craft invisible traps with a wider AoE or higher damage or able to sprint faster for twice the time
 B/ca = Barriers built have 1hp/regen, armor crafted has 1hp/regen
@@ -83,7 +83,7 @@ S/b = Always starts game with 10 explosive material and a hammer which deals 1 d
       barriers
 S/ca = 5 seconds of invisibility each time a bandage is used
 CA/r = Able to farm? Maybe- Hammer which deals 1 damage and can also hammer a plot which grows a berry plant after 10 
-       seconds?
+       seconds, disappears when harvested
 CA/c = Able to deal 1 damage with bandages in hand, if bandages in hand then auto-heal when lethal damage dealt
 CA/b = Always spawn with 20 bandages, 1 spear, 1 Scale Shirt, 1 Scale Pants and 1 Scale Helmet
 CA/s = Able to deal double damage as long as in rear 90 degrees and heal half damage dealt
