@@ -1,12 +1,17 @@
 1. Server
--Browser
--Lobby Creator
--Pregame Chat
--Ingame Chat
--Movement Synchronized
--Randomly Placed Point Of Interest
--Environment(Trees, grass, rocks, etc)
--Other Buildings
--Inventory
--Melee attack
--Health/Energy
+2. Browser
+3. Lobby Creator
+4. Pregame Chat
+5. Ingame Chat
+6. Movement Synchronized
+7. Randomly Placed Point Of Interest
+8. Environment(Trees, grass, rocks, etc)
+9. Other Buildings
+10. Inventory
+11. Melee attack
+12. Health/Energy
+13. Equipment (i.e. pickup, dropping, equipping)
+14. Hotbar
+15. Game Timer
+16. Game End/Win Conditions
+17. Animation Sync
