@@ -12,31 +12,38 @@ Small Rock Piles: 5 stones, 1 flint, TTH 5 seconds total
 Large Rock Piles: 15 stones, 2 flint, TTH 10 seconds total
 Dinosaur Nests: 10 Guano, TTH 1 second per guano
 Prehistoric creatures: ‘Baby’ dinosaurs (3HP), Bite: 1 damage, 1 per 2 seconds, drops 1 meat/skin
-		           ‘Adult dinosaurs’ (15HP), Bite: 3 damage, 1 per 2 seconds, Tail Sweep 2 damage all-around or at 
-		           rear semi-circle, drops 3 Meat, 5 skin
+		       ‘Adult dinosaurs’ (15HP), Bite: 3 damage, 1 per 2 seconds, Tail Sweep 2 damage all-around or at 
+		        rear semi-circle, drops 3 Meat, 5 skin
+		        Dodo bird (10HP), Bite 2 damage, 1 per 2 second, good dodge/run away?, drops 1 meat, 10-20
+		        feathers, 2 hide
 Dinosaur Meat heals 5 hp
 
 Crafting: Crafting Table= 1 log + 1 stone
 	  1 log = 4 branches
 	  1 branch = 4 twigs
-	  1 twig = Arrow (with CT)
+	  1 twig = Arrow
+	  1 twig + 1 feather = Arrow +1 damage, +2 when charged
 	  1 branch + 1 twine + 1 stone = 1 spear, 2 damage per second, block other spears?
 	  1 branch + 2 twine = Bow (with CT), 2 damage per arrow( per 2 seconds), 5 if charged for 2 seconds, 
 	                       normal shot 40ft range, charged 70ft range
 	  1 twig + 3 twine = slingshot, 1 damage per stone (1 per second), 30ft range
 	  1 twig + 1 twine + 1 stone = Hatchet (with CT), 2 hp per second, 1 hp per 2 seconds on defense
 	  1 berry + 1 twine = 1 bandage, heals 6 health, left click self 3 seconds, right click target 1 second
-	  2 berries + 2 dinosaur meat + 2 twine = Elixir, 2 hp regen for 10 seconds
+	  2 berries + 2 dinosaur meat + 2 guano = Elixir, 2 hp regen for 10 seconds
 	  5 guano + 2 berries + 1 flint = 2 Sticky explosive (with CT) which breaks 1 block of rock defense each
 	  8 branches + 2 twine = 4 wooden defense blocks, 2 hp each, single block high/wide
 	  5 stones + 1 guano = 2 rock defense blocks (with CT), 5 hp each, single block high/wide
 	  1 branch + 2 twine + 1 stone = 5 HP trap (with CT), triggered by step or slingshot
 	  1 branch + 2 twine + 1 guano + 1 flint = 10 hp over 5 seconds, area attack triggered by step
 						 Or slingshot
-		1 skin = Scale Gloves (with CT), 10% less damage, 10 damage before useless and drops
-	  1 skin + 1 twine = Scale Helmet (with CT), 10% less damage, 20 damage before useless and drops
-	  3 skin + 1 twine = Scale Shirt (with CT), 25% less damage, 20 damage before useless and drops
-	  2 skin + 1 twine = Scale Pants (with CT), 15% less damage, 20 damage before useless and drops
+	  1 hide = Hide Helmet, 5% less damage, 20 damage  before useless an drops
+	  2 hide = Hide Gloves, 5% less damage, 20 damage before useless an drops
+	  2 hide + 1 twine = Hide Shirt, 10% less damage, 50 damage before useless and drops
+	  1 hide + 1 twine = Hide pants, 10% less damage, 50 damage before useless and drops
+	  1 skin = Scale Gloves (with CT), 10% less damage, 10 damage before useless and drops
+	  1 skin + 1 twine = Scale Helmet (with CT), 10% less damage, 100 damage before useless and drops
+	  3 skin + 1 twine = Scale Shirt (with CT), 25% less damage, 100 damage before useless and drops
+	  2 skin + 1 twine = Scale Pants (with CT), 15% less damage, 100 damage before useless and drops
 
 Trackers:
 R(esources), C(ombat), B(uilder), S(py), CA(rer)
