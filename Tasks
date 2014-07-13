@@ -1,6 +1,12 @@
-Server Infrastructure ASAP. What kind of server, how is it being hosted, are connections possible, does it hold up to stress,
-Photon??, Possibility of continuous uptime, via Photon. Learn PUN API.
-
-Test map, no graphics/environment required.
-
-Basic Movement.
+1. Server
+-Browser
+-Lobby Creator
+-Pregame Chat
+-Ingame Chat
+-Movement Synchronized
+-Randomly Placed Point Of Interest
+-Environment(Trees, grass, rocks, etc)
+-Other Buildings
+-Inventory
+-Melee attack
+-Health/Energy
