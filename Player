@@ -1,0 +1,32 @@
+So I'm not sure if it's necessary, but I thought I'd create a state-based impression of the typical player.
+
+Player variables: Health?
+                  Defense
+                  Left-Hand Item (Because let's make everyone left-handed maybe)
+                  Speed?
+                  Camera?
+
+Held-item default value, value changes based on item held, and changes effect of mouse-click.
+--> So each state will check what item is held
+--> I'm so sure there's probably better ways to do this than states?
+--> Can multiple states be active at a time, considering they're if/else statements? Could potentially have different sets
+    states under categories, health/damage related, item-held related, equipped armor related, movement related
+    
+State 1: Fists, basically punch, click activates, release of mouse button ends state
+State 2: Unique bandage click animation- Left click heals self, right click punch on other which expends bandage
+         Possibly highlights target if not heal self used?
+State 3: Bow and Arrow/Slingshot AND ammo for either, holding low in left hand (but visible?), on click load and shoot
+         If held longer then charge, and also slight zoom of camera
+State 4: Bow and Arrow/Slingshot AND no ammo for either, holding low in left, click does shakes item as if broken
+State 5: Spear/Hammer/Hatchet, left hand in front holding, on right click hand goes back and hits forward
+State 6: Traps/barriers, bundle in hand, or both hands heaped and holding 'gear', Left click place on ground
+State 7: Armor equipped, if equipped then damage by other source is calculated by a(base damage) x b(armor class), so armor
+         class changes depending on what armor is equipped, b is 1 if nothing
+
+Basically movement, we could have a running speed of between 35kmph and 15 kmph with 25kmph determining the average size of
+the map, so a set 6-7km by 6-7km area.
+--> Oh hey, character customisation: You can toggle a scale for body type, the leaner has average faster speed but less run
+    time and better sneak, the bulkier has average lower, but longer run time and worse sneak.
+    Crawl speed half, quarter speed crouched, cannot use ranged weapons while crawling.
+    Q and E allow you to look behind you while running Outlast-style because that shit was tense, which I think is a good
+    way to make people feel about this era, especially with night-time (See the world design file when it's made)
