@@ -1,0 +1,35 @@
+Castles/Resource Pools/Siege Engines/NPCs
+
+Castles:
+-Menu for castle/s with tab for upgrades, tab for resources held and tab for crafting
+-Can enter and walk around, if Throne Room is held by enemy for a minute (not disputed but held) then castle control shifts
+-Upgradable, start with Basic Blacksmith, basic Siegemaster, basic Village.
+-Basic Blacksmith=Leather armor,Iron weapons > Advanced Blacksmith=Chain Armour, better leather/Improved Iron weps
+ > Master Blacksmith=Improved leather/chain, Plate armour, Steel weapons
+-Basic Village=x resources, adventure supplies in exchange for resources, Advanced=Market, Master=x*1.5
+-Basic Siegemaster, Upgrades just unlock new ones, improve old available siege weapons and defenses
+
+Resource Pools:
+-Menu for defenses
+-Stone
+-Ore
+-Wood
+-Druids provide passive boosts as long as they're 'protected' by finder, other parties' attacks destroy this resource
+-Stonehenge provides a random permanent bonus each time a team captures it, so it's in the best interest to capture and then
+ hold it for as long as you can.
+
+Siege Engines:
+-Hotkey characters and siege engines to numbers, so that when character is in an engine or operating it, their hotkey 
+ selects the siege engine and allows you to assign a target.
+-Menu for characters which allows a formation to be chosen based on position of currently selected character
+
+NPCs:
+-Resource type boosts production of and defense of resource pool they're assigned to based on level
+-Combat type improves attack/defense based on level
+-Builder type improves strength of siege engines or strength of siege defenses they're assigned to
+-Spy type allows temporary invisibility of NPC or increased critical chance or ability to kill and impersonate other NPCs
+-Carer/Healer type allows better, constant healing duties of self and allies
+-Level up automatically with notification, based on deeds while accompanying you or certain assignable deeds, as well as 
+ bringing them out with your main character and fighting wild animals.
+-Base loadout for each NPC based on role, otherwise this can be changed through menu
+-Death means that a new NPC is waiting for you at closest castle
