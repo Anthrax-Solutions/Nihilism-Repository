@@ -57,26 +57,51 @@ Bandage applied to self = 1 CA
 Bandage applied to other = 3 CA
 
 Simple:
-R = Double resources harvested
-C = All weapons deal 2 additional damage
-B = Barriers built are twice as strong
-S = Able to temporarily become invisible OR able to deal 3x sneak attack damage
-CA = Passive 2hp/regen per second and 1 hp/regen per second for 10 seconds per bandage use
+R = Double resources harvested and/or Better market prices and/or looting.
+C = Individual weapon damage and armor is increased for self and followers.
+B = Increased castle health and decreased castle upgrade costs.
+S = Able to temporarily become invisible/followers too? And/or spy towers a certain distance away from castle
+CA = Option to make followers healers, and/or passive health regeneration of individuals?
 
 Complex/Possibly OP: (ALSO I JUST REALISED THIS MIGHT BE BETTER FOR SUBSEQUENT GAMES OF THE SAME ERA, GODDAMIT)
 CAPITAL SCORED HIGHER/lowercase scored lower
-R/c = Always spawn with hatchet which deals 2 damage per second, halves harvesting time for resources
-R/b = Able to harvest twice as many resources from sources
-R/s = Able to loot all enemy items
-R/ca = Healing items are twice as effective
-C/r = Always spawn with 1 spear, 1 Scale Helmet, 1 Scale Shirt, 1 slingshot, 20 stones and 5 bandages
-C/b = Always spawn with hatchet which deals 2 damage per second and deals double standard hatchet damage on barriers
-C/s = Able to deal double damage as long as in rear 90 degrees of enemy
-C/ca = Always spawn with hammer which deals 3 damage per second and heals 2 damage per second to self
-B/r = Always spawn with hatchet which deal 1 damage per second, allows crafting without CT and halves harvesting time
-B/c = Always spawn with hammer which deals 2 damage per second, heals barriers with two hits
-B/s = Able to craft invisible traps with a wider AoE or higher damage or able to sprint faster for twice the time
-B/ca = Barriers built have 1hp/regen, armor crafted has 1hp/regen
+R/c = Added defenses at resource points/easier to capture resource points
+Always spawn with hatchet which deals 2 damage per second, halves harvesting time for resources
+
+R/b = 
+Able to harvest twice as many resources from sources
+
+R/s = Able to hide traps, make them invisible when placed in wild or around resource pools.
+Able to loot all enemy items
+
+R/ca = Amount of resource pools provides passive regen to anything but static structures.
+Healing items are twice as effective
+
+C/r = Increased damage based on resource pools owned.
+Always spawn with 1 spear, 1 Scale Helmet, 1 Scale Shirt, 1 slingshot, 20 stones and 5 bandages
+
+C/b = Stronger siege engines
+Always spawn with hatchet which deals 2 damage per second and deals double standard hatchet damage on barriers
+
+C/s = Strength of traps or perhaps, special trojan horse siege engine which automatically opens gate if it survives the
+      journey to get there
+Able to deal double damage as long as in rear 90 degrees of enemy
+
+C/ca = Damage of others healed increases damage for the next five minutes, or just the whole round
+Always spawn with hammer which deals 3 damage per second and heals 2 damage per second to self
+
+B/r = 
+Always spawn with hatchet which deal 1 damage per second, allows crafting without CT and halves harvesting time
+
+B/c = 
+Always spawn with hammer which deals 2 damage per second, heals barriers with two hits
+
+B/s = 
+Able to craft invisible traps with a wider AoE or higher damage or able to sprint faster for twice the time
+
+B/ca = 
+Barriers built have 1hp/regen, armor crafted has 1hp/regen
+
 S/r = Can steal from enemy if in rear semi-circle
 S/c = Able to deal triple damage as long as in rear 90 degrees
 S/b = Always starts game with 10 explosive material and a hammer which deals 1 damage per second but instantly destroys
