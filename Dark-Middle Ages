@@ -3,7 +3,7 @@ Castles/Resource Pools/Siege Engines/NPCs
 Castles:
 -Menu for castle/s with tab for upgrades, tab for resources held and tab for crafting
 -Can enter and walk around, if Throne Room is held by enemy for a minute (not disputed but held) then castle control shifts
--Upgradable, start with Basic Blacksmith, basic Siegemaster, basic Village.
+-Upgradable, start with Basic Blacksmith, basic Siegemaster, basic Village, basic Barracks
 -Basic Blacksmith=Leather armor,Iron weapons > Advanced Blacksmith=Chain Armour, better leather/Improved Iron weps
  > Master Blacksmith=Improved leather/chain, Plate armour, Steel weapons
 -Basic Village=x resources, adventure supplies in exchange for resources, Advanced=Market, Master=x*1.5
@@ -14,14 +14,23 @@ Resource Pools:
 -Stone
 -Ore
 -Wood
+-Food
 -Druids provide passive boosts as long as they're 'protected' by finder, other parties' attacks destroy this resource
 -Stonehenge provides a random permanent bonus each time a team captures it, so it's in the best interest to capture and then
  hold it for as long as you can.
+-
 
 Siege Engines:
 -Hotkey characters and siege engines to numbers, so that when character is in an engine or operating it, their hotkey 
  selects the siege engine and allows you to assign a target.
 -Menu for characters which allows a formation to be chosen based on position of currently selected character
+
+-Engines Lvl 1-
+Battering Ram
+
+-Engines Lvl 2-
+Trebuchet
+
 
 NPCs:
 -Resource type boosts production of and defense of resource pool they're assigned to based on level
@@ -33,3 +42,43 @@ NPCs:
  bringing them out with your main character and fighting wild animals.
 -Base loadout for each NPC based on role, otherwise this can be changed through menu
 -Death means that a new NPC is waiting for you at closest castle
+
+Scripting of Troops:
+-Troop Menu (Combines siege weapons/defenses as well as individual troops)
+-Allows deployment through use of 'map' which shows explored areas Starcraft-style
+
+-Selection of area/target creates a rough path to destination which displays on map, a line with perhap five to ten
+'toggles', which are moved and through which the path is created sequentially, ie the path continues from one point to 
+another
+
+>If two groups detect each other then they enter into combat, excepting any troops ordered not to do so
+>If one detects another first and are to engage any enemies, And they get within x distance without detection, they gain
+combat advantage: Perhaps a surprise round of double damage for each troop, or only ranged troops
+>Otherwise, attack happens with regards to speed.
+>Melee troops always at front, Range determines 'battlegrid' position (Swordsmen or spearmen)
+>If encounter enemy, 'Attack'
+>Attack will calculate distance between troops, troops will either move closer to match their attack range or be able to
+and thus attack
+>Movement determined by speed, round per round basis for AI?
+>Essentially, each turn check if in range, if yes attack, if no pathfind to closest enemy, move speed along path
+
+Barracks Troops:
+1/2 metre per second = 1 Spd point
+With 900 seconds, I'm setting the based speed for any troop/siege weapons at 4-5 metres per second, so there'll be some
+departing from reality, but oh well
+
+-Lvl 1-       Atk     Def     Rng     Spd     HP
+>Villagers     10       5       1      10     30
+>Pages         15       5       1      12     30
+
+-Lvl 2-
+>Swordsmen     20      10       1      13     50
+>Shieldtroops   5      20       0      10     50
+>Spearmen      15      10       2      13     50
+>Crossbowmen   15       5      10      15     50
+
+-Lvl 3-
+>Knight        30      30       1      15    120
+>Sellsword     40      20       1      16    100
+>Halberdier    25      20       2      15    100
+>Archers       25      15       8      18     70
